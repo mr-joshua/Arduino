@@ -44,6 +44,11 @@ void loop()
     float humidity = (((data[0] * 256.0 + data[1]) * 125.0) / 65536.0) - 6;
 
     // Output data to Serial Monitor
+    Serial.print("data[0] :");
+    Serial.println(data[0]);
+    Serial.print("data[1] :");
+    Serial.println(data[1]);
+
     Serial.print("Relative Humidity :");
     Serial.print(humidity);
     Serial.println(" %RH");
@@ -79,5 +84,5 @@ void loop()
     Serial.print(fTemp);
     Serial.println(" F");
   }
-  delay(60000);
+  delay(6000);
 }

@@ -154,7 +154,9 @@ void loop()
     data[1] = Wire.read();
 
     // Convert the data
-    humidity = (((data[0] * 256.0 + data[1]) * 125.0) / 65536.0) - 6;
+    ////humidity = (((data[0] * 256.0 + data[1]) * 125.0) / 65536.0) - 6;
+    // Subtract 10 more for "fudge - 6 in original becomes 16
+    humidity = (((data[0] * 256.0 + data[1]) * 125.0) / 65536.0) - 16;
   }  
   if (isnan(humidity)) {
     Serial.println("Failed reading humidity from DHT");
