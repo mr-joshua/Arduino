@@ -42,8 +42,8 @@
 #define RELAY_1  3  // Arduino Digital I/O pin number for first relay 
 #define RELAY_2  4  // Arduino Digital I/O pin number for second relay
 #define NUMBER_OF_RELAYS 2 // Total number of attached relays
-#define RELAY_ON 1  // GPIO value to write to turn on attached relay
-#define RELAY_OFF 0 // GPIO value to write to turn off attached relay
+#define RELAY_ON 0  // GPIO value to write to turn on attached relay
+#define RELAY_OFF 1 // GPIO value to write to turn off attached relay
 
 
 void before()
