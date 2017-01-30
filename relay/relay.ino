@@ -35,7 +35,7 @@
 //#define MY_RADIO_RFM69
 
 // Enable repeater functionality for this node
-#define MY_REPEATER_FEATURE
+//#define MY_REPEATER_FEATURE
 
 #include <MySensors.h>
 
@@ -64,7 +64,7 @@ void setup()
 void presentation()
 {
     // Send the sketch version information to the gateway and Controller
-    sendSketchInfo("Relay", "1.0");
+    sendSketchInfo("betaRelay", "11.0");
 
     for (int sensor=1, pin=RELAY_1; sensor<=NUMBER_OF_RELAYS; sensor++, pin++) {
         // Register all sensors to gw (they will be created as child devices)
