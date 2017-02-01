@@ -64,7 +64,7 @@ void setup()
 void presentation()
 {
     // Send the sketch version information to the gateway and Controller
-    sendSketchInfo("betaRelay", "11.0");
+    sendSketchInfo("Relay", "1.0");
 
     for (int sensor=1, pin=RELAY_1; sensor<=NUMBER_OF_RELAYS; sensor++, pin++) {
         // Register all sensors to gw (they will be created as child devices)
