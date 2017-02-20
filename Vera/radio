@@ -1,0 +1,16 @@
+Radio Hookup using 22/8
+
+2468
+1357
+
+1 has white square
+
+1 - Black	Ground
+2 - Red 	3.3v
+3 - Orange	D9
+4 - Yellow	D10
+5 - Green	D13
+6 - Blue	D11
+7 - White	D12
+8 - Brown	D2
+
