@@ -34,6 +34,11 @@
 #define MY_RADIO_NRF24
 //#define MY_RADIO_RFM69
 
+//Set Power to high
+#define MY_RF24_PA_LEVEL RF24_PA_HIGH
+//#define MY_DEBUG_VERBOSE_RF24
+
+
 // Enable repeater functionality for this node
 //#define MY_REPEATER_FEATURE
 
