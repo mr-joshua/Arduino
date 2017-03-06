@@ -34,8 +34,8 @@
 #define MY_RADIO_NRF24
 //#define MY_RADIO_RFM69
 
-//Set Power to high
-#define MY_RF24_PA_LEVEL RF24_PA_HIGH
+//Set Power to MAX
+#define MY_RF24_PA_LEVEL RF24_PA_MAX
 //#define MY_DEBUG_VERBOSE_RF24
 
 
