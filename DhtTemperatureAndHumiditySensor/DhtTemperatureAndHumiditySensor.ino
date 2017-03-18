@@ -77,7 +77,7 @@ DHT dht;
 void presentation()  
 { 
   // Send the sketch version information to the gateway
-  sendSketchInfo("TemperatureAndHumidity", "1.1");
+  sendSketchInfo("TemperatureAndHumidity", "2.0");
   
   // Register all sensors to gw (they will be created as child devices)
   present(CHILD_ID_HUM, S_HUM);
